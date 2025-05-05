@@ -5,8 +5,11 @@ Este projeto consiste em um programa Java que analisa o conteúdo HTML de uma p�
 ### *Funcionamento do Código*
 **1. Entrada e Validação Inicial**
 
-* O programa é executado via linha de comando com o argumento:
+* O programa é executado via linha de comando com os argumentos:
 
+```
+javac HtmlAnalyzer.java
+```
 ```
 java HtmlAnalyzer [URL]
 ```
