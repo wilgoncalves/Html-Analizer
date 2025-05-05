@@ -92,11 +92,8 @@ ou
 URL connection error
 ```
 
-### Observações Técnicas
-* Eficiência: O algoritmo percorre o HTML uma única vez (O(n)), usando estruturas de dados simples (ArrayList, HashMap).
+### Restrições:
 
-* Restrições:
-
-    *1. Não suporta tags sem fechamento (ex: &lt;br&gt;) ou com atributos (ex: &lt;div id="x"&gt;).*
-    
-    *2. Linhas com múltiplos tipos de conteúdo são consideradas inválidas.*
+ * Não suporta tags sem fechamento (ex: &lt;br&gt;) ou com atributos (ex: &lt;div id="x"&gt;).
+ 
+ * Linhas com múltiplos tipos de conteúdo são consideradas inválidas.
